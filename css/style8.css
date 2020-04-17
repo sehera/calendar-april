@@ -1,0 +1,29 @@
+.text{
+  font-family: "Helvetica", sans-serif;
+  font-style: bold;
+  letter-spacing: 0.03rem;
+  color: black;
+  line-height: 2rem;
+  position:absolute;
+  left:30%;
+  top:20%;
+}
+
+
+p{
+filter: blur(4px);
+margin-bottom: 50%;
+text-align:center;
+padding: 5px;
+}
+
+p:hover{
+  filter: none;
+}
+
+ul{
+filter: blur(4px);
+}
+ul:hover{
+  filter: none;
+}

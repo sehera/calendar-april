@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+      <head>
+        <meta charset="utf-8">
+        <title>it's april</title>
+        <link rel="stylesheet" href="css/style.css">
+      </head>
+      <body>
+
+        <div class="header">
+          APRIL '20
+        </div>
+
+        <!-- <h1> APRIL '20 </h1> -->
+
+        <div id="dates">
+
+        <div id="draggable">
+          <div class="day">
+            <a href=""> 1 </a>
+          </div>
+        </div>
+
+        <div id="draggable2">
+          <div class="day">
+            <a href=""> 2 </a>
+          </div>
+        </div>
+
+        <div id="draggable3">
+          <div class="day">
+            <a href=""> 3 </a>
+          </div>
+        </div>
+
+        <div id="draggable4">
+          <div class="day">
+            <a href=""> 4 </a>
+          </div>
+        </div>
+
+        <div id="draggable5">
+          <div class="day">
+            <a href=""> 5 </a>
+          </div>
+        </div>
+
+        <div id="draggable6">
+          <div class="day">
+            <a href=""> 6 </a>
+          </div>
+        </div>
+
+        <div id="draggable7">
+          <div class="day">
+            <a href=""> 7 </a>
+          </div>
+        </div>
+
+        <div id="draggable8">
+          <div class="day">
+            <a href="8.html"> 8. </a>
+          </div>
+        </div>
+
+        <div id="draggable9">
+          <div class="day">
+            <a href=""> 9 </a>
+          </div>
+        </div>
+
+        <div id="draggable10">
+          <div class="day">
+            <a href=""> 10 </a>
+          </div>
+        </div>
+
+        <div id="draggable11">
+          <div class="day">
+            <a href=""> 11 </a>
+          </div>
+        </div>
+
+        <div id="draggable12">
+          <div class="day">
+            <a href=""> 12 </a>
+          </div>
+        </div>
+
+        <div id="draggable13">
+          <div class="day">
+            <a href=""> 13 </a>
+          </div>
+        </div>
+
+        <div id="draggable14">
+          <div class="day">
+            <a href=""> 14 </a>
+          </div>
+        </div>
+
+        <div id="draggable15">
+          <div class="day">
+            <a href="15.html"> 15. </a>
+          </div>
+        </div>
+
+        <div id="draggable16">
+          <div class="day">
+            <a href=""> 16 </a>
+          </div>
+        </div>
+
+        <div id="draggable17">
+          <div class="day">
+            <a href=""> 17 </a>
+          </div>
+        </div>
+
+        <div id="draggable18">
+          <div class="day">
+            <a href=""> 18 </a>
+          </div>
+        </div>
+
+        <div id="draggable19">
+          <div class="day">
+            <a href=""> 19 </a>
+          </div>
+        </div>
+
+        <div id="draggable20">
+          <div class="day">
+            <a href=""> 20 </a>
+          </div>
+        </div>
+
+        <div id="draggable21">
+          <div class="day">
+            <a href=""> 21 </a>
+          </div>
+        </div>
+
+        <div id="draggable22">
+          <div class="day">
+            <a href=""> 22 </a>
+          </div>
+        </div>
+
+        <div id="draggable23">
+          <div class="day">
+            <a href=""> 23 </a>
+          </div>
+        </div>
+
+        <div id="draggable24">
+          <div class="day">
+            <a href=""> 24 </a>
+          </div>
+        </div>
+
+        <div id="draggable25">
+          <div class="day">
+            <a href=""> 25 </a>
+          </div>
+        </div>
+
+        <div id="draggable26">
+          <div class="day">
+            <a href=""> 26 </a>
+          </div>
+        </div>
+
+        <div id="draggable27">
+          <div class="day">
+            <a href=""> 27 </a>
+          </div>
+        </div>
+
+        <div id="draggable28">
+          <div class="day">
+            <a href=""> 28 </a>
+          </div>
+        </div>
+
+        <div id="draggable29">
+          <div class="day">
+            <a href=""> 29 </a>
+          </div>
+        </div>
+
+        <div id="draggable30">
+          <div class="day">
+            <a href=""> 30 </a>
+          </div>
+        </div>
+
+        <div id="draggable31">
+          <div class="day">
+            <a href=""> 31 </a>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <button id="backgcolor"> <h4 style="color:wheat;text-align:center;" > <b> brighter please. <b> </h4>  </button>
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/code.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- <script>
+    function myFunction() {
+      var elmnt = document.getElementsByTagName("div2")[0];
+      var cln = elmnt.cloneNode(true);
+      document.body.appendChild(cln);
+    }
+    </script> -->
+
+    <script>
+    function myMove() {
+      var elem = document.getElementById("animate");
+      var pos = 0;
+      var id = setInterval(frame, 5);
+      function frame() {
+        if (pos == 350) {
+          clearInterval(id);
+        } else {
+          pos++;
+          elem.style.top = pos + "px";
+          elem.style.left = pos + "px";
+        }
+      }
+    }
+    </script>
+
+
+
+    </body>
+    </html>
