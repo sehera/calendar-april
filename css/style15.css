@@ -1,0 +1,52 @@
+body{
+  background-color: wheat;
+}
+
+.text{
+  font-family: "Helvetica", sans-serif;
+  font-style: bold;
+  letter-spacing: 0.03rem;
+  color: black;
+  line-height: 1.5rem;
+  position:absolute;
+  left:10%;
+  top:10%;
+  font-weight: 400;
+}
+
+iframe {
+  width: 1000px;
+  height: 900px;
+
+}
+.web1 {
+  position: absolute;
+  left: 10%;
+  top: 60%;
+  display: block;
+  border-style: none;
+}
+
+.web2 {
+  position: absolute;
+  display: block;
+  left: 0%;
+  top: 170%;
+  border-style: none;
+}
+
+.web3 {
+  position: absolute;
+  display: block;
+  left: 10%;
+  top: 280%;
+  border-style: none;
+}
+
+.web4 {
+  position: absolute;
+  display: block;
+  left: 0%;
+  top: 390%;
+  border-style: none;
+}
